@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(102, 71, 32);
+}
+.user-profile {
+    background-color: #ecdcea;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2%;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: rgba(0,0,0,0.4) 0px 30px 90px;
+}
+.profile-top {
+    background: linear-gradient(to left,#8b36d6, #6a26f1);
+    padding: 1rem;
+    text-align: center;
+    color: #ffff;
+}
+.profile-info {
+    font-family: 800;
+}
+.profile-top img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.profile-top .profile-info {
+    margin-top: 0.5rem;
+}
+.profile-bottom {
+    padding:  3rem 3rem 1rem 3rem;
+}
+.profile-bottom .profile-info {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50,50,93,0.25) 0px 13px 27px -5px, rgba(0,0,0,0.3) 0px 8px 16px -8px;
+    border-radius: 1rem;
+}
+.profile-bottom .profile-info .fa-solid {
+    margin-right: 0.8rem;
+    color: rgb(150, 150, 150);
+}
+.profile-bottom .profile-info:hover {
+    box-shadow: rgba(62,68,61,0.3)0px 1px 2px 0px, rgba(60,64,67,0.15);
+}
+button {
+    outline: none;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    box-shadow:rgba(50,50,93,0.25) 0px 13px 27px -5px, rgba(0,0,0,0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    color:#8b36d6;
+}
+button:hover {
+    background:linear-gradient(to left,#8b36d6, #6a26f1);
+    color: #fff;
+}
+.page {
+    background-color: rgb(139, 56, 160);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(139, 56, 160);
+    background-color: #fff;
+}
+.page:hover {
+    background-color: #fff;
+    color: rgb(139, 56, 160);
+    cursor: pointer;
+}

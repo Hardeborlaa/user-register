@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(25, 24, 26);
+    color: #fff;
+}
+.page {
+    background-color: rgb(139, 56, 160);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    float: right;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(139, 56, 160);
+    background-color: #fff;
+}
+.page:hover {
+    background-color: #fff;
+    color: rgb(139, 56, 160);
+    cursor: pointer;
+}

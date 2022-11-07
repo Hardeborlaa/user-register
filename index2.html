@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User register with Random users</title>
+    <link rel="stylesheet" href="styles/random.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>  
+  <div class="user-profile">
+    <div class="profile-top">
+        <img id= "image" src="https://randomuser.me/api/portraits/women/54.jpg" alt="photos">
+        <div class="profile-info">
+            <span id="name">Name</span>
+            <span>|</span>
+            <span id="gender">Gender</span>
+        </div>
+    </div>
+    <div class="profile-bottom">
+        <div class="profile-info">
+            <i class="fa-solid fa-envelope"></i>
+            <span id="email">Email</span>
+        </div>
+        <div class="profile-info">
+            <i class="fa-solid fa-phone"></i>
+            <span id="phone">Phone</span>
+        </div>
+        <div class="profile-info">
+            <i class="fa-solid fa-city"></i>
+            <span id="city">City</span>
+        </div>
+        <div class="profile-info">
+            <i class="fa-solid fa-location-dot"></i>
+            <span id="location">Country</span>
+        </div>
+        <div class="profile-info">
+            <i class="fa-solid fa-address-card"></i>
+            <span id="postcode">Postcode</span>
+        </div>
+    </div>
+  </div>
+  <button onclick="getRandomUser()">New User</button>
+  <div class="pagebtn">
+    <button class="page"><a href="index.html">Page 1</a></button>
+  </div>
+  <script src="js/random.js"></script>
+</body>
+</html>
