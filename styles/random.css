@@ -7,14 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 110vh;
+    height: 100%;
+    max-width: 100%;
     font-family: 'Raleway', sans-serif;
     background-color: rgb(102, 71, 32);
 }
 .user-profile {
     background-color: #ecdcea;
-    width: 100%;
-    max-width: 500px;
+    max-width: 100%;
     margin-top: 2%;
     border-radius: 1rem;
     overflow: hidden;
