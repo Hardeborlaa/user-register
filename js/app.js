@@ -35,20 +35,22 @@ document.querySelector("#user-form").addEventListener("submit", (e) => {
     }
     else {
         if(selectedRow == null) {
-            const list = document.querySelector("#user-list");
-            const row = document.createElement("tr");
+          const list = document.querySelector("#user-list");
+          const row = document.createElement("tr");
 
-            row.innerHTML = `
-            <td>${firstName}</td>
-            <td>${lastName}</td>
-            <td>${phoneNo}</td>
-            <td>${email}</td>
-            <a href="#" class="btn btn-warning btn-sm edit">Edit</a>
-            <a href="#" class="btn btn-danger btn-sm delete">Delete</a>
-            `;
-            list.appendChild(row);
-            selectedRow = null;
-            showAlert("User Added", "success");
+          row.innerHTML = `
+             <td>${firstName}</td>
+             <td>${lastName}</td>
+             <td>${phoneNo}</td>
+             <td>${email}</td>
+             <td>
+             <a href="#" class="btn btn-warning btn-sm edit">Edit</a>
+             <a href="#" class="btn btn-danger btn-sm delete">Delete</a>
+             </td>
+             `;
+          list.appendChild(row);
+          selectedRow = null;
+          showAlert("User Added", "success");
         }
         else {
             selectedRow.children[0].textContent = firstName;
